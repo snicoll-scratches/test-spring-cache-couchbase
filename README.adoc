@@ -1,0 +1,10 @@
+= Spring Caching example with Couchbase
+
+It all started https://twitter.com/christopheml/status/722808443036372992[on twitter]
+
+This sample is a showcase of a plain Spring application using the caching
+abstraction with couchbase.
+
+Interesting bits are in `CouchbaseConfiguration`: the sample connects on
+`localhost` using the default `buckets`. A cache manager is created with a
+`foos` cache, see `FooService` and `CouchbaseApplication` for more details.
