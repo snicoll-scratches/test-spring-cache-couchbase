@@ -6,5 +6,5 @@ This sample is a showcase of a plain Spring application using the caching
 abstraction with couchbase.
 
 Interesting bits are in `CouchbaseConfiguration`: the sample connects on
-`localhost` using the default `buckets`. A cache manager is created with a
+`localhost` using the default `bucket`. A cache manager is created with a
 `foos` cache, see `FooService` and `CouchbaseApplication` for more details.
